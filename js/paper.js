@@ -21,27 +21,31 @@ document.getElementById('welcomeImageS1').src = 'client/images/' + welcomeImageS
 document.getElementById('welcomeImageR1').src = 'client/images/' + welcomeImageR1;
 document.getElementById('captionH2a').innerHTML = captionH2a;
 document.getElementById('caption1b').innerHTML = caption1b;
-document.getElementById('background1').style.backgroundImage = "url('client/images/" + background1 + "')";
-document.getElementById('background2').style.backgroundImage = "url('client/images/" + background2 + "')";
+// document.getElementById('background1').style.backgroundImage = "url('client/images/" + background1 + "')";
+// document.getElementById('background2').style.backgroundImage = "url('client/images/" + background2 + "')";
+
+var y;
+for (y in numbers){
+  var divtest = document.createElement("div");
+  divtest.classList.add('col-lg-6');
+  divtest.innerHTML = '<div class="counter d-flex align-items-start mb-5" data-aos="fade-up" data-aos-delay=""><div class="counter-text"><strong>'+ numbers[y]["quantity"] + '</strong><span>' + numbers[y]["title"] + '</span></div></div>';
+  document.getElementById('numbering').appendChild(divtest);
+}
 
 // section2
+var i;
+for (i in galleries){
+  var divtest = document.createElement("a");
+  divtest.setAttribute('class', 'work-thumb');
+  divtest.setAttribute('href', "./client/images/"+galleries[i]['image'] );
+  // divtest.classList.add('work-thumb');
+  divtest.dataset.fancybox = "gallery";
+  divtest.innerHTML = '<div class="work-text"><h3>'+ galleries[i]['title'] +'</h3><span class="category">Illustration</span></div><img src="client/images/'+ galleries[i]['image'] +'" alt="Image" class="img-fluid">';
+  document.getElementById('galery-slide').appendChild(divtest);
+}
 document.getElementById('captionH2b').innerHTML = captionH2b;
 document.getElementById('caption2a').innerHTML = caption2a;
 
-var y;
-for (y in rooms){
-  var divtest = document.createElement("div");
-  divtest.classList.add('col-lg-4', 'col-md-6', 'aos-init');
-  divtest.dataset.aos = "fade-up";
-  divtest.dataset.aos.delay = attrations[y] + '00';
-  divtest.innerHTML = '<figure class="img-wrap"><img src="client/images/' + rooms[y]["image"]+ '" alt="Image placeholder" class="img-fluid"></figure><div class="p-3 text-center room-info"><h2>' + rooms[y]["title"] + '</h2><span class="text-uppercase letter-spacing-1">' + rooms[y]["price"]+ '</span></div><div class="text-center"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#my' + y + '">More</button></div>';
-  document.getElementById('roomPackage').appendChild(divtest);
-  document.getElementById('modalclass').innerHTML += '<div id="my' + y + '" class="modal fade" role="dialog"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h4 class="modal-title">' + y + '</h4><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><p><img src="client/images/' + rooms[y]["image"]+ '" alt="Image placeholder" class="img-fluid"></p><div class="row" id="modal'+ y +'"></div></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Back</button></div></div></div></div>';
-  for (f in rooms[y]["facilities"]) {
-
-    document.getElementById('modal'+y).innerHTML += '<p class="col-md-12 col-lg-6"><b>'+ f + '</b> : ' + rooms[y]["facilities"][f] + '</p>'
-  }
-}
 
 document.getElementById('caption3a').innerHTML = caption3a;
 for (x in galeryImages){

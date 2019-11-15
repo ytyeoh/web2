@@ -16,27 +16,42 @@ var captionH2a = 'We Value More on Quality and not in Quantity.!!!!'
 var caption1b = 'At Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.'
 var welcomeImageR1 = 'about_1.jpg'
 // section2 room
-var captionH2b = 'Rooms &amp; Suites'
-var caption2a= "awsome room with clean service"
-var rooms = {
-  room1: {
-    image: "img_1.jpg", type: 'vivip Room double', price: 'RM99999 / per night', facilities:{
-        Parking: 'Yes', Internet: 'Yes', Kitchen: 'Yes', Bedroom: '2', Bathroom: '1', 'Living Area': 'Yes', Amenities: 'fan, iron, clothes rack', Pets: 'not allow', Accessibility: 'Entire unit located on ground floor', Outdoors: 'BBQ facilities', Miscellaneous: 'Air conditioning, Non-smoking throughout, Family rooms'
-    }
+var captionH2b = 'Our Works'
+var caption2a= "professional job with great service "
+var numbers = {
+  number1: {
+    quantity: "245", title: 'customers'
   },
-  room2: {
-    image: "img_2.jpg", type: 'Double Room', price: 'RM120 / per night', facilities:{
-        Parking: 'Yes', Internet: 'Yes', Kitchen: 'Yes', Bedroom: '2', Bathroom: '1', 'Living Area': 'Yes', Amenities: 'fan, iron, clothes rack', Pets: 'not allow', Accessibility: 'Entire unit located on ground floor', Outdoors: 'BBQ facilities', Miscellaneous: 'Air conditioning, Non-smoking throughout, Family rooms'
-    }
+  number2: {
+    quantity: "15", title: 'Case'
   },
-  room3:{
-    image: "img_3.jpg", type: 'Family Room', price: 'RM250 / per night', facilities:{
-        Parking: 'Yes', Internet: 'Yes', Kitchen: 'Yes', Bedroom: '2', Bathroom: '1', 'Living Area': 'Yes', Amenities: 'fan, iron, clothes rack', Pets: 'not allow', Accessibility: 'Entire unit located on ground floor', Outdoors: 'BBQ facilities', Miscellaneous: 'Air conditioning, Non-smoking throughout, Family rooms'
-    }
+  number3: {
+    quantity: "99", title: 'projects'
+  },
+  number4: {
+    quantity: "55", title: 'sales'
   }
 }
 
 // section3
+galleries = {
+  galery1: {
+    image: 'slide_1.jpg', title: 'company A', category: 'transport'
+  },
+  galery2: {
+    image: 'slide_2.jpg', title: 'company B', category: 'logisticis'
+  },
+  galery3: {
+    image: 'slide_3.jpg', title: 'company C', category: 'service'
+  },
+  galery4: {
+    image: 'slide_4.jpg', title: 'company D', category: 'logisticis'
+  },
+  galery5: {
+    image: 'person_4.jpg', title: 'company E', category: 'service'
+  }
+}
+
 var caption3a = 'Hotel provice gym, swiiming pool'
 var galeryImages = {
   1: 'slider-1.jpg', 2: 'slider-2.jpg', 3: 'slider-3.jpg', 4: 'slider-4.jpg', 5: 'slider-5.jpg'
