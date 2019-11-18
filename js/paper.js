@@ -46,23 +46,24 @@ for (i in galleries){
 document.getElementById('captionH2b').innerHTML = captionH2b;
 document.getElementById('caption2a').innerHTML = caption2a;
 
-
+document.getElementById('captionH2c').innerHTML = captionH2c;
 document.getElementById('caption3a').innerHTML = caption3a;
-for (x in galeryImages){
+for (p in processes){
   var divtest = document.createElement("div");
-  divtest.innerHTML = '<img src="client/images/' + galeryImages[x]+ '" alt="Image placeholder" class="img-fluid">';
-  document.getElementById('carousel').appendChild(divtest);
+  divtest.classList.add('col-lg-4');
+  divtest.dataset.aos = "fade-up";
+  divtest.dataset.aos.delay =  '100';
+  divtest.innerHTML = '<div class="process p-3"><span class="number">0'+p+'</span><div><h3>'+processes[p]['title']+'</h3><p>'+ processes[p]['desc']+ '</p></div></div>';
+  document.getElementById('processStep').appendChild(divtest);
 }
 
 document.getElementById('captionH2d').innerHTML = captionH2d;
 document.getElementById('caption4a').innerHTML = caption4a;
-for (y in attrations){
+for (s in services){
   var divtest = document.createElement("div");
-  divtest.classList.add('col-lg-4', 'col-md-6', 'col-sm-6', 'col-12', 'post', 'aos-init');
-  divtest.dataset.aos = "fade-up";
-  divtest.dataset.aos.delay = attrations[y] + '00';
-  divtest.innerHTML = '<div class="media media-custom d-block mb-4 h-100"><img src="client/images/' + attrations[y]['image'] + '" alt="Image placeholder" class="img-fluid"><div class="media-body"><h2 class="mt-0 mb-3">' + attrations[y]['title'] + '</h2><p>' + attrations[y]['desc'] + '</p></div></div>';
-  document.getElementById('media').appendChild(divtest);
+  divtest.classList.add('service');
+  divtest.innerHTML = '<div><h3>'+services[s]['title']+'</h3><p>'+services[s]['desc']+'</p></div>';
+  document.getElementById('serviceItem').appendChild(divtest);
 }
 
 for (y in tours){

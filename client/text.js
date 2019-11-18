@@ -51,46 +51,49 @@ galleries = {
     image: 'person_4.jpg', title: 'company E', category: 'service'
   }
 }
+var captionH2c= 'Our Process'
+var caption3a = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.'
 
-var caption3a = 'Hotel provice gym, swiiming pool'
+var processes = {
+  1:{
+    title: "Reaearch", desc: 'make research to understand'
+  },
+  2:{
+    title: "Building", desc: 'Build a tool based on research result'
+  },
+  3:{
+    title: "Launch", desc: 'Ready to launch ready product'
+  }
+}
 var galeryImages = {
   1: 'slider-1.jpg', 2: 'slider-2.jpg', 3: 'slider-3.jpg', 4: 'slider-4.jpg', 5: 'slider-5.jpg'
 }
 
 // section4
-var captionH2d = "Attrations"
-var caption4a = 'Check out attration in Penang and enjoy it.'
-var attrations = {
-  1:{
-    title: "Penang Hill", image: 'img_1.jpg', desc: 'Penang famous attration'
-  },
-  2:{
-    title: "Kek Lok Si", image: 'img_2.jpg', desc: 'BIggest buddhist templa in SEA'
-  },
-  3:{
-    title: "Clan Jetty", image: 'img_3.jpg', desc: 'Residents on the sea'
-  }
-}
+
+var captionH2d = "Services"
+var caption4a = 'beofe confirm we will look into your case and study.'
+
 
 // section5
-var tours = {
+var services = {
   1:{
-    title: "Penang Hill", image: 'img_1.jpg', desc: 'Penang famous attration', url: 'http://www.kikia.co'
+    title: "Auto Reload", desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.'
   },
   2:{
-    title: "Kek Lok Si", image: 'img_2.jpg', desc: 'BIggest buddhist templa in SEA', url: 'http://www.kikia.co'
+    title: "Downlaod", desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.'
   },
   3:{
-    title: "Clan Jetty", image: 'img_3.jpg', desc: 'Residents on the sea', url: 'http://www.kikia.co'
+    title: "Update", desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.'
   },
   4:{
-    title: "Penang Hill", image: 'img_1.jpg', desc: 'Penang famous attration', url: 'http://www.kikia.co'
+    title: "Maintainence", desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.'
   },
   5:{
-    title: "Kek Lok Si", image: 'img_2.jpg', desc: 'BIggest buddhist templa in SEA', url: 'http://www.kikia.co'
+    title: "Manangment", desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.'
   },
   6:{
-    title: "Clan Jetty", image: 'img_3.jpg', desc: 'Residents on the sea', url: 'http://www.kikia.co'
+    title: "24/7 Support", desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.'
   }
 }
 
