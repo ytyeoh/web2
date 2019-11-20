@@ -66,25 +66,17 @@ for (s in services){
   document.getElementById('serviceItem').appendChild(divtest);
 }
 
-for (y in tours){
-  var divtest = document.createElement("div");
-  divtest.classList.add('owl-item');
-  divtest.innerHTML = '<a href="'+ tours[y]["url"] +'"><div class="testimonial text-center slider-item"><img src="client/images/'+ tours[y]["image"]+'" alt="Image placeholder" class="mx-auto"></div><blockquote class="margin0"><h3>'+ tours[y]['title']+'</h3><p>' + tours[y]['desc'] + '</p></blockquote></a>';
-  document.getElementById('tours').appendChild(divtest);
-}
-
-
 // section6
 document.getElementById('list_custId').value = custId
 document.getElementById('list_address').value = address1 + address2
 document.getElementById('address').innerHTML = address1 + '<br>' + address2
-document.getElementById('mobile').innerHTML = mobile
+// document.getElementById('mobile').innerHTML = mobile
 document.getElementById('whatsapp').href = "https://wa.me/6"+mobile
+document.getElementById('whatsapp').innerHTML = ' <span class="icon-whatsapp"></span> '+mobile
 document.getElementById('url').value = window.location.href 
 
 
-document.getElementById('fAddress').innerHTML = address1 + '<br>' + address2
-document.getElementById('fMobile').innerHTML = mobile
-
-document.getElementById('facebook').href = facebookUrl
+// document.getElementById('facebook').href = facebookUrl
+document.getElementById('aboutTitle').innerHTML = 'About' + brand
+document.getElementById('about').innerHTML = about
 

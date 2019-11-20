@@ -102,6 +102,7 @@ var custId = 'ytyeoh@me.com'
 var address1 = '1,jalan satu, '
 var address2 = "Georgetown, 11800 Penang."
 var mobile = "0164286173"
+var about = 'We specialize in mke web page'
 
 // footer
 var facebookUrl = 'https://www.facebook.com/kikiatour'
