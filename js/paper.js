@@ -67,6 +67,8 @@ for (s in services){
 }
 
 // section6
+document.getElementById('captionH2e').innerHTML = captionH2e
+document.getElementById('caption5a').innerHTML = caption5a
 document.getElementById('list_custId').value = custId
 document.getElementById('list_address').value = address1 + address2
 document.getElementById('address').innerHTML = address1 + '<br>' + address2

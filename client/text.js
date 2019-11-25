@@ -98,6 +98,8 @@ var services = {
 }
 
 // section6
+var captionH2e = "Message Us"
+var caption5a = 'Feel free to contact us know more'
 var custId = 'ytyeoh@me.com'
 var address1 = '1,jalan satu, '
 var address2 = "Georgetown, 11800 Penang."
