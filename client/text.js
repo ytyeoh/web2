@@ -34,6 +34,7 @@ var numbers = {
 }
 
 // section3
+// can add more images
 galleries = {
   galery1: {
     image: 'slide_1.jpg', title: 'company A', category: 'transport'
@@ -48,6 +49,9 @@ galleries = {
     image: 'slide_4.jpg', title: 'company D', category: 'logisticis'
   },
   galery5: {
+    image: 'person_4.jpg', title: 'company E', category: 'service'
+  },
+  galery6: {
     image: 'person_4.jpg', title: 'company E', category: 'service'
   }
 }
@@ -65,9 +69,7 @@ var processes = {
     title: "Launch", desc: 'Ready to launch ready product'
   }
 }
-var galeryImages = {
-  1: 'slider-1.jpg', 2: 'slider-2.jpg', 3: 'slider-3.jpg', 4: 'slider-4.jpg', 5: 'slider-5.jpg'
-}
+
 
 // section4
 
@@ -76,6 +78,7 @@ var caption4a = 'beofe confirm we will look into your case and study.'
 
 
 // section5
+// can add one more services
 var services = {
   1:{
     title: "Auto Reload", desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.'
@@ -94,6 +97,12 @@ var services = {
   },
   6:{
     title: "24/7 Support", desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.'
+  },
+  7:{
+    title: "extra", desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspe.'
+  },
+  8:{
+    title: "extra", desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.'
   }
 }
 

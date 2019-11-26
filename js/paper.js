@@ -79,6 +79,6 @@ document.getElementById('url').value = window.location.href
 
 
 // document.getElementById('facebook').href = facebookUrl
-document.getElementById('aboutTitle').innerHTML = 'About' + brand
+document.getElementById('aboutTitle').innerHTML = 'About ' + brand
 document.getElementById('about').innerHTML = about
 
