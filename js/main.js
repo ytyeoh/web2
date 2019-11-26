@@ -3,7 +3,63 @@
  	easing: 'slide',
  	once: true
  });
+$(document).ready(function() {
+    $('#pingForm').validate({
+        rules: {
+            name: "required",
+            email: {
+                required: true,
+                email: true
+            },
+            phone: {
+                required: true,
+                number: true
+            }
+        },
+        errorElement: "span" ,
+        messages: {
+            name: "Please enter your sweet name",
+            email: "Please enter valid email address",
+            phone: "Please enter your mobile number",
+            category: "Please choose category"
+        },
+        submitHandler: function(form) {
+            var dataparam = $('#pingForm').serialize();
+            $.ajax({
+                type: 'POST',
+                async: true,
+                url: 'https://guarded-forest-36819.herokuapp.com/lists',
+                // url: './client/mail.php',
+                data: dataparam,
+                datatype: 'json',
+                cache: true,
+                global: false,
+                beforeSend: function() {
+                    $('#loader').show();
+                    $('#button').hide();
+                },
+                success: function(data) {
+                    if(data == 'success'){
+                        console.log(data);
+                    } else {
+                        $('.no-config').show();
+                        console.log(data);
+                    }
 
+                },
+                complete: function() {
+                    $(".alert").show();
+                          setTimeout(function(){
+                            $(".alert-top").hide();
+                          }, 2000);
+                    $('#loader').hide();
+                    $("#result").html('Thank For Contact Us');
+                    $("#result").show();
+                }
+            });
+        }
+    });
+});
 jQuery(document).ready(function($) {
 
 	"use strict";
