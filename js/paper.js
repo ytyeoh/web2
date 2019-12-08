@@ -2,7 +2,6 @@ document.getElementById('brand').innerHTML = brand;
 
 for (x in menu) {
   document.getElementById(x).innerHTML = menu[x];
-  document.getElementById(x).href = "#"+menu[x];
   document.getElementById(x).classList.add('menuLink');
   var a = document.getElementById('a-'+x)
   if (a!=null){
@@ -13,7 +12,7 @@ for (x in menu) {
     b.innerHTML = menu[x];
   };
   document.getElementById('f'+x).innerHTML = menu[x];
-  document.getElementById('f'+x).href = "#"+menu[x];
+  // document.getElementById('f'+x).href = "#"+menu[x];
 }
 document.getElementById('caption1a').innerHTML = caption1a;
 document.getElementById('captionH1').innerHTML = captionH1;

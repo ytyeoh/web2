@@ -1,5 +1,5 @@
 // header
-var brand = "Logisticsl"
+var brand = "TAS Shipping"
 var menu = {
   menu1:'home', menu2: 'works', menu3: 'process', menu4:'services'
 }
