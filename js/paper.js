@@ -39,7 +39,7 @@ for (i in galleries){
   divtest.setAttribute('href', "./client/images/"+galleries[i]['image'] );
   // divtest.classList.add('work-thumb');
   divtest.dataset.fancybox = "gallery";
-  divtest.innerHTML = '<div class="work-text"><h3>'+ galleries[i]['title'] +'</h3><span class="category">Illustration</span></div><img src="client/images/'+ galleries[i]['image'] +'" alt="Image" class="img-fluid">';
+  divtest.innerHTML = '<div class="work-text"><h3>'+ galleries[i]['title'] +'</h3><span class="category">'+ galleries[i]['category'] +'</span></div><img src="client/images/'+ galleries[i]['image'] +'" alt="Image" class="img-fluid">';
   document.getElementById('galery-slide').appendChild(divtest);
 }
 document.getElementById('captionH2b').innerHTML = captionH2b;
