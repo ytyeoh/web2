@@ -2,7 +2,6 @@ document.getElementById('brand').innerHTML = brand;
 
 for (x in menu) {
   document.getElementById(x).innerHTML = menu[x];
-  document.getElementById(x).href = "#"+menu[x];
   document.getElementById(x).classList.add('menuLink');
   var a = document.getElementById('a-'+x)
   if (a!=null){
@@ -13,7 +12,7 @@ for (x in menu) {
     b.innerHTML = menu[x];
   };
   document.getElementById('f'+x).innerHTML = menu[x];
-  document.getElementById('f'+x).href = "#"+menu[x];
+  // document.getElementById('f'+x).href = "#"+menu[x];
 }
 document.getElementById('caption1a').innerHTML = caption1a;
 document.getElementById('captionH1').innerHTML = captionH1;
@@ -40,7 +39,7 @@ for (i in galleries){
   divtest.setAttribute('href', "./client/images/"+galleries[i]['image'] );
   // divtest.classList.add('work-thumb');
   divtest.dataset.fancybox = "gallery";
-  divtest.innerHTML = '<div class="work-text"><h3>'+ galleries[i]['title'] +'</h3><span class="category">Illustration</span></div><img src="client/images/'+ galleries[i]['image'] +'" alt="Image" class="img-fluid">';
+  divtest.innerHTML = '<div class="work-text"><h3>'+ galleries[i]['title'] +'</h3><span class="category">'+ galleries[i]['category'] +'</span></div><img src="client/images/'+ galleries[i]['image'] +'" alt="Image" class="img-fluid">';
   document.getElementById('galery-slide').appendChild(divtest);
 }
 document.getElementById('captionH2b').innerHTML = captionH2b;

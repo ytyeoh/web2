@@ -1,23 +1,19 @@
 // header
-var brand = "Logisticsl"
+var brand = "TAS Shipping"
 var menu = {
-  menu1:'home', menu2: 'works', menu3: 'process', menu4:'services'
+  menu1:'Home', menu2: 'About', menu3: 'Members', menu4:'Services'
 }
 
 // background images
 var background1 = "hero_4.jpg"
 var background2 = "hero_4.jpg"
 // section1
-var caption1a = 'Welcome To 4 <span class="fa fa-star text-primary"></span> Hotel'
-var captionH1 = 'Great Place to Hang around'
+var captionH1 = 'End-to-end Supply Chain Management Services'
+var caption1a = 'Ensuring the effectiveness and efficiency of resources, time and cost'
 // var welcomeImageR1 = 'person_1.jpg'
 var welcomeImageS1 = 'person_1.jpg'
-var captionH2a = 'We Value More on Quality and not in Quantity.!!!!'
-var caption1b = 'At Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.'
-var welcomeImageR1 = 'about_1.jpg'
-// section2 room
-var captionH2b = 'Our Works'
-var caption2a= "professional job with great service "
+var captionH2a = 'We truly believe in the importance of knowledge and industry experience!!!!'
+var caption1b = 'Tas Shipping founded in 1990, we have grown by leaps and bound in the past 26 years, gathering vital knowledge which has since armed us to provide high-quality services in the world of logistics.'
 var numbers = {
   number1: {
     quantity: "245", title: 'customers'
@@ -32,41 +28,46 @@ var numbers = {
     quantity: "55", title: 'sales'
   }
 }
+var welcomeImageR1 = 'about_1.jpg'
+// section2 room
+var captionH2b = 'Gallery Image'
+var caption2a= "professional job with great service "
+
 
 // section3
 // can add more images
 galleries = {
   galery1: {
-    image: 'slide_1.jpg', title: 'company A', category: 'transport'
+    image: 's1.jpg', title: 'Sea Freight', category: 'transport'
   },
   galery2: {
-    image: 'slide_2.jpg', title: 'company B', category: 'logisticis'
+    image: 's2.jpg', title: 'Haulage & Land Transportation', category: 'logisticis'
   },
   galery3: {
-    image: 'slide_3.jpg', title: 'company C', category: 'service'
+    image: 's3.jpg', title: 'Cross-Border Trucking', category: 'service'
   },
   galery4: {
-    image: 'slide_4.jpg', title: 'company D', category: 'logisticis'
+    image: 's4.jpg', title: 'Custom Brokerage', category: 'logisticis'
   },
   galery5: {
-    image: 'person_4.jpg', title: 'company E', category: 'service'
+    image: 's5.jpg', title: 'Warehousing', category: 'service'
   },
   galery6: {
-    image: 'person_4.jpg', title: 'company E', category: 'service'
+    image: 's6.jpg', title: 'Specialized Logistics', category: 'service'
   }
 }
-var captionH2c= 'Our Process'
-var caption3a = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.'
+var captionH2c= 'Board of Directors'
+var caption3a = 'Get to know more about our board of direcotr members'
 
 var processes = {
   1:{
-    title: "Reaearch", desc: 'make research to understand'
+    title: "SYED HASSAN BIN SYED ALI AIDID PKT, PJK", desc: 'Chairman'
   },
   2:{
-    title: "Building", desc: 'Build a tool based on research result'
+    title: "WONG YIM FATT", desc: 'Managing Director'
   },
   3:{
-    title: "Launch", desc: 'Ready to launch ready product'
+    title: "WONG CHEE KEET", desc: 'Executive Director'
   }
 }
 
@@ -74,35 +75,35 @@ var processes = {
 // section4
 
 var captionH2d = "Services"
-var caption4a = 'beofe confirm we will look into your case and study.'
+var caption4a = 'Being one of the best Malaysia`s one-stop logistic solutions provider, we are able to offer our reliable and efficiet freight services. Our networks spans over 107 agents in 127 countries worldwide.'
 
 
 // section5
 // can add one more services
 var services = {
   1:{
-    title: "Auto Reload", desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.'
+    title: "Supply Chain Management", desc: 'Management of the flow of goods and services and includes all processes that transform raw materials into final products. '
   },
   2:{
-    title: "Downlaod", desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.'
+    title: "Customs brokerage and clearance", desc: 'Working positions that may be employed by or affiliated with freight forwarders, independent businesses, or shipping lines, importers, exporters, trade authorities, and customs brokerage firms.'
   },
   3:{
-    title: "Update", desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.'
+    title: "End-to-end logistics", desc: 'Solutions ensures the comprehensive completion of work and is typically managed within a specified timeframe. Internal procedures at a company often lay out a process for end-to-end management using the most efficient and timely approach to manufacture goods or complete a service.'
   },
   4:{
-    title: "Maintainence", desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.'
+    title: "Shipping", desc: 'The physical moving of good from one point to another, such as the moving of merchandise from the warehouse to the customer.'
   },
   5:{
-    title: "Manangment", desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.'
+    title: "International freight forwarding", desc: 'Organizes shipments for individuals or corporations to get goods from the manufacturer or producer to a market, customer or final point of distribution.[1] Forwarders contract with a carrier or often multiple carriers to move the goods. A forwarder does not move the goods but acts as an expert in the logistics network. '
   },
   6:{
-    title: "24/7 Support", desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.'
+    title: "Transportation", desc: 'Movement of goods and persons from place to place and the various means by which such movement is accomplished.'
   },
   7:{
-    title: "extra", desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspe.'
+    title: "Warehousing", desc: 'Warehousing is the act of storing goods that will be sold or distributed later. While a small, home-based business might be warehousing products in a spare room, basement, or garage, larger businesses typically own or rent space in a building that is specifically designed for storage.'
   },
   8:{
-    title: "extra", desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.'
+    title: "Packing and pest control", desc: 'Reduce the presence of pests or to exclude pets from produce processing and storage areas.'
   }
 }
 
@@ -110,10 +111,10 @@ var services = {
 var captionH2e = "Message Us"
 var caption5a = 'Feel free to contact us know more'
 var custId = 'ytyeoh@me.com'
-var address1 = '1,jalan satu, '
-var address2 = "Georgetown, 11800 Penang."
-var mobile = "0164286173"
-var about = 'We specialize in mke web page'
+var address1 = 'No.56-H,'
+var address2 = "Weld Quay, 10300 Penang, Malaysia"
+var mobile = "+6042624412"
+var about = 'TAS Shipping to shape the future of hyper-efficient regional and global logistics services and comprehensive Supply Chain Management'
 
 // footer
 var facebookUrl = 'https://www.facebook.com/kikiatour'
