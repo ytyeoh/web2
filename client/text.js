@@ -8,8 +8,8 @@ var menu = {
 var background1 = "hero_4.jpg"
 var background2 = "hero_4.jpg"
 // section1
-var captionH1 = 'End-to-end Supply Chain Management Services'
-var caption1a = 'Ensuring the effectiveness and efficiency of resources, time and cost'
+var captionH1 = 'ONE-STOP LOGISTICS SOLUTION '
+var caption1a = 'As one of the best Malaysia’s one-stop logistics solution provider, TAS Shipping is a leader in enhancing their logistics operations for companies.'
 // var welcomeImageR1 = 'person_1.jpg'
 var welcomeImageS1 = 'person_1.jpg'
 var captionH2a = 'We truly believe in the importance of knowledge and industry experience!!!!'
