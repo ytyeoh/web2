@@ -1,5 +1,5 @@
 document.getElementById('brand').innerHTML = brand;
-
+document.title = brand;
 for (x in menu) {
   document.getElementById(x).innerHTML = menu[x];
   document.getElementById(x).classList.add('menuLink');
